@@ -67,7 +67,8 @@ function AmbulanceBeds() {
             return (
               <li className={item.cName} key={index}>
                 {/* <a href="tel:123-456-7890"> */}
-<div style={{background-color: "red"}}>
+<div >
+  <h1 style={{color: "red"}}>check</h1>
             </div>
                 <h5>{item.verified}</h5>
                 <h4>{item.name}</h4>
