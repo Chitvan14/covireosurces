@@ -21,6 +21,9 @@ function AmbulanceBeds() {
               setSearchTerm(event.target.value);
             }}
           ></input>
+<div >
+  <h1 style={{color: "red"}}>check</h1>
+            </div>
 
           {(searchTerm != "" )? (
             <div className="twitterButton twitterbuttonShow">
@@ -67,9 +70,7 @@ function AmbulanceBeds() {
             return (
               <li className={item.cName} key={index}>
                 {/* <a href="tel:123-456-7890"> */}
-<div >
-  <h1 style={{color: "red"}}>check</h1>
-            </div>
+
                 <h5>{item.verified}</h5>
                 <h4>{item.name}</h4>
                 <a href={`tel:${item.number}`} className="number_icon">
