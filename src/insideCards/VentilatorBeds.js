@@ -26,7 +26,7 @@ function VentilatorBeds() {
           }}
         ></input>
          {(searchTerm != "") ? (
-            <div  className="twitterButton twitterbuttonShow">
+            <div  className="twitter__Button twitterbuttonShow">
 
          
             <a
@@ -45,7 +45,7 @@ function VentilatorBeds() {
              
             </div>
           ) : (
-            <div  className="twitterButton twitterbuttonHide">
+            <div  className="twitter__Button twitterbuttonHide">
 
          
           <a

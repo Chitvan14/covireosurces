@@ -36,7 +36,7 @@ function OxygenConcentrator() {
          
           
           {(searchTerm != "") ? (
-            <div  className="twitterButton twitterbuttonShow">
+            <div  className="twitter__Button twitterbuttonShow">
 
          
             <a
@@ -55,7 +55,7 @@ function OxygenConcentrator() {
              
             </div>
           ) : (
-            <div  className="twitterButton twitterbuttonHide">
+            <div  className="twitter__Button twitterbuttonHide">
 
          
           <a
