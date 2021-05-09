@@ -1,0 +1,35 @@
+.plasma__top{
+    background-color: #F4C430;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.plasma__top h1{
+    letter-spacing: 7px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plasma__mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.plasma__mid input {
+/* background-color: red; */
+padding: 10px;
+margin: 10px;
+width: 80%;
+
+}
+
+.card-item a p{
+    font-weight: bold;
+    font-size: 12px;
+}

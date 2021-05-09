@@ -1,0 +1,48 @@
+.donate__top {
+  background-color: #f4c430;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.donate__top h1 {
+  letter-spacing: 7px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate__mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.donate__mid input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+
+.card-item > .donate__anchor > img {
+ 
+  width: 50%;
+margin: 0 25% 0 25%;
+  height: 5em;
+  border-radius: 10px;
+  
+}
+
+.card-item > .donate__anchor >  p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  font-weight: bold;
+  border-top: 1px solid black;
+  margin-top: 10px;
+}

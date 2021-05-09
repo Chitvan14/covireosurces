@@ -1,0 +1,30 @@
+.doctor__top{
+    background-color: #F4C430;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.doctor__top h1{
+    letter-spacing: 7px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor__mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.doctor__mid input {
+/* background-color: red; */
+padding: 10px;
+margin: 10px;
+width: 80%;
+
+}
