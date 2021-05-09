@@ -26,24 +26,7 @@ function AmbulanceBeds() {
           }}
         ></input>
         
-            <div  className="twitterButton">
-
-         
-            <a
-                href=""
-               
-              > 
-              <TwitterIcon
-              logofillColor="white"
-              round={true}
-              size={35}
-            
-            ></TwitterIcon>
-                Live Ambulance Results For <h4> {searchTerm} 
-                </h4>
-              </a>
-             
-            </div>
+           
          
           
         {JSONDATA.filter((val) => {
