@@ -1,0 +1,32 @@
+[
+  {
+    "verified": "Verified on 5 May",
+    "name": "Auto Ambulance Service",
+    "number": "011-41236614",
+    "availability": "Oxygen Fitted",
+    "city": "Delhi",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 5 May",
+    "name": "Auto Ambulance Service",
+    "number": "9818430043",
+    "availability": "Oxygen Fitted",
+    "city": "Delhi",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  },
+  {
+    "verified": "",
+    "name": "In Verification Updating Soon",
+    "number": "",
+    "availability": "Upcoming",
+    "city": "",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  }
+]

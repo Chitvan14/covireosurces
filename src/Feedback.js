@@ -82,7 +82,7 @@ function Feedback() {
           type="submit"
           style={{ background: loader ? "ccc" : "#f37455;" }}
         >
-          SUBMIT
+          {!loader ? <p>SUBMIT</p> : <p >SUBMITTED</p>}
         </button>
       </form>
 

@@ -33,25 +33,24 @@ function Feedback() {
   const [contact, setContact] = useState("");
   const [location, setLocation] = useState("");
   const [type, setType] = useState("");
-  
-  
 
   const [loader, setLoader] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoader(true);
-    firestore.collection("leads")
+    firestore
+      .collection("leads")
       .add({
         name: name,
         verified: dov,
         contact: contact,
-        location:location,
-        type:type,
-        
-
+        location: location,
+        type: type,
       })
       .then(() => {
         // alert('Message has been submitted');
+
         setLoader(false);
       })
       .catch((error) => {
@@ -64,17 +63,15 @@ function Feedback() {
     setContact("");
     setLocation("");
     setType("");
-   
   };
 
   return (
     <div className="lead">
-        <NavLink to="/chat" exact ClassName="sendleads">
-          <h1>Go To Chat Section</h1>
-        </NavLink>
+      <NavLink to="/chat" exact ClassName="sendleads">
+        <h1>Go To Chat Section</h1>
+      </NavLink>
       <form className="form" onSubmit={handleSubmit}>
-
-      <label>Date Of Verification</label>
+        <label>Date Of Verification</label>
         <input
           placeholder="Date,Month"
           value={dov}
@@ -98,17 +95,18 @@ function Feedback() {
           value={location}
           onChange={(e) => setLocation(e.target.value)}
         ></input>
-<label>Type</label>
-<input
+        <label>Type</label>
+        <input
           placeholder="Oxygen, Plasma, FoodService, ICUBeds, Medicine Or Other"
           value={type}
           onChange={(e) => setType(e.target.value)}
         ></input>
+
         <button
           type="submit"
-          style={{ background: loader ? "ccc" : "#f37455;" }}
+          style={{ background: loader ? "ccc" : "#f37455" }}
         >
-          SUBMIT
+          {!loader ? <p>SUBMIT</p> : <p >SUBMITTED</p>}
         </button>
       </form>
 

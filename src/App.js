@@ -7,17 +7,21 @@ import Chat from "./Chat";
 import Donate from "./Donate";
 import About from "./About";
 import Bottom from "./Bottom";
-import Oxygen from "./Oxygen";
+import Oxygen from "./Oxygen__home";
 import Plasma from "./Plasma";
-import Doctor from "./Doctor";
-import Ambulance from "./Ambulance";
-import HomeNurse from "./HomeNurse";
-import Fabiflue from "./Fabiflue";
 import Remdesivir from "./Remdesivir";
-import IcuBeds from "./IcuBeds";
+import Beds from "./Beds";
 import FoodService from "./Foodservice";
-import Feedback from './Feedback';
-import Leads from './Leads';
+import Feedback from "./Feedback";
+import Leads from "./Leads";
+import OxygenBeds from "./insideCards/OxygenBeds";
+import VentilatorBeds from "./insideCards/VentilatorBeds";
+import AmbulanceBeds from "./insideCards/AmbulanceBeds";
+import IcuBeds from "./insideCards/IcuBeds";
+import OxygenCylinder from "./insideCards/OxygenCylinder";
+import RefillCans from "./insideCards/RefillCans";
+import OxygenConcentrator from "./insideCards/OxygenConcentrator";
+import Disclaimer from "./Disclamer";
 
 function App() {
   return (
@@ -29,10 +33,43 @@ function App() {
             <Home />
             <Bottom />
           </Route>
+          <Route exact path="/disclaimer">
+            <Disclaimer />
+          </Route>
+          <Route exact path="/oxygenbeds">
+            <OxygenBeds />
+            <Bottom />
+          </Route>
+          <Route exact path="/ventilatorbeds">
+            <VentilatorBeds />
+            <Bottom />
+          </Route>
+          <Route exact path="/ambulancebeds">
+            <AmbulanceBeds />
+            <Bottom />
+          </Route>
+          <Route exact path="/icubeds">
+            <IcuBeds />
+            <Bottom />
+          </Route>
+
           <Route exact path="/oxygen">
             <Oxygen />
             <Bottom />
           </Route>
+          <Route exact path="/concentrator">
+            <OxygenConcentrator />
+            <Bottom />
+          </Route>
+          <Route exact path="/refill">
+            <RefillCans />
+            <Bottom />
+          </Route>
+          <Route exact path="/cylinder">
+            <OxygenCylinder />
+            <Bottom />
+          </Route>
+
           <Route exact path="/chat">
             <Chat />
           </Route>
@@ -41,43 +78,27 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/feedback">
             <Feedback />
-            
           </Route>
           <Route exact path="/plasma">
             <Plasma />
             <Bottom />
           </Route>
-          {/* <Route exact path="/doctor">
-            <Doctor />
-            <Bottom />
-          </Route> */}
-          {/* <Route exact path="/ambulance">
-            <Ambulance />
-            <Bottom />
-          </Route> */}
-          {/* <Route exact path="/homenurse">
-            <HomeNurse />
-            <Bottom />
-          </Route> */}
-          {/* <Route exact path="/fabiflue">
-            <Fabiflue />
-            <Bottom />
-          </Route> */}
+
           <Route exact path="/remdesivir">
             <Remdesivir />
             <Bottom />
           </Route>
-          <Route exact path="/icubeds">
-            <IcuBeds />
+          <Route exact path="/beds">
+            <Beds />
             <Bottom />
           </Route>
+
           <Route exact path="/foodService">
             <FoodService />
             <Bottom />
           </Route>
           <Route exact path="/leadsForm">
             <Leads />
-           
           </Route>
 
           <Route>

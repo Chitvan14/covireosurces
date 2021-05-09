@@ -1,14 +1,5 @@
 [
   {
-    "verified": "Verified on 6 May",
-    "name": "Plasma Bank",
-    "number": "8448884344",
-    "availability": "",
-    "city": "Delhi",
-    "website": "",
-    "cName": "card-item"
-  },
-  {
     "verified": "Verified",
     "name": "Enactus IITB and IITBHU",
     "number": "",
@@ -44,7 +35,6 @@
     "website": "https://dhoondh.com/",
     "cName": "card-item"
   },
- 
 
   {
     "verified": "Verified",
@@ -139,10 +129,12 @@
   },
   {
     "verified": "",
-    "name": "In Verification Coming Soon",
+    "name": "In Verification Updating Soon",
     "number": "",
     "availability": "Upcoming",
     "city": "",
-    "cName":"card-item"
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
   }
 ]

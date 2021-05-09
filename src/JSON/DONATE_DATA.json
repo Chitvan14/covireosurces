@@ -1,84 +1,74 @@
 [
   {
-    
     "website": "https://www.khalsaaid.org/news/india-covid-relief",
-    "image":"./d6.png",
+    "image": "./d6.png",
     "name": "Khalsa Aid",
-    "cName":"card-item"
+    "cName": "card-item"
   },
   {
-    
     "website": "https://www.gethelpnow.in/#/",
     "name": "Help Now",
-    "image":"./d9.png",
-    "cName":"card-item"
+    "image": "./d9.png",
+    "cName": "card-item"
   },
   {
-    
     "website": "http://enrichinglives.in/donate.php",
     "name": "Enriching Lives",
-    "image":"./d12.png",
-    "cName":"card-item"
+    "image": "./d12.png",
+    "cName": "card-item"
   },
   {
-    
     "website": "https://iskcondwarka.org/food-for-covid-patients/index.php",
     "name": "Iskcon Dwarka",
-    "image":"./d4.png",
-    "cName":"card-item"
+    "image": "./d4.png",
+    "cName": "card-item"
   },
   {
-    
     "website": "https://hemkuntfoundation.com/donate-now/",
     "name": "Hemkunt Foundation",
-    "image":"./d5.png",
-    "cName":"card-item"
+    "image": "./d5.png",
+    "cName": "card-item"
   },
   {
-    
     "website": "https://www.giveindia.org/",
     "name": "Give India",
-    "image":"./d2.png",
-    "cName":"card-item"
-  }, {
-    
-    "website": "https://www.udayfoundation.org/",
-    "name": "Uday Foundation",
-    "image":"./d8.png",
-    "cName":"card-item"
-  }, {
-    
-    "website": "https://www.aidindia.in/",
-    "name": "Aid India",
-    "image":"./d10.png",
-    "cName":"card-item"
-  }, {
-    
-    "website": "https://goonj.org/donate/",
-    "name": "Goonj",
-    "image":"./d11.png",
-    "cName":"card-item"
-  }, {
-    
-    "website": "https://www.swasth.app/home",
-    "name": "Swasthorg",
-    "image":"./d1.png",
-    "cName":"card-item"
-  }, {
-    
-    "website": "https://actgrants.in/",
-    "name": "Act Grants",
-    "image":"./d3.png",
-    "cName":"card-item"
+    "image": "./d2.png",
+    "cName": "card-item"
   },
   {
-    
+    "website": "https://www.udayfoundation.org/",
+    "name": "Uday Foundation",
+    "image": "./d8.png",
+    "cName": "card-item"
+  },
+  {
+    "website": "https://www.aidindia.in/",
+    "name": "Aid India",
+    "image": "./d10.png",
+    "cName": "card-item"
+  },
+  {
+    "website": "https://goonj.org/donate/",
+    "name": "Goonj",
+    "image": "./d11.png",
+    "cName": "card-item"
+  },
+  {
+    "website": "https://www.swasth.app/home",
+    "name": "Swasthorg",
+    "image": "./d1.png",
+    "cName": "card-item"
+  },
+  {
+    "website": "https://actgrants.in/",
+    "name": "Act Grants",
+    "image": "./d3.png",
+    "cName": "card-item"
+  },
+  {
     "website": "https://milaap.org/fundraisers/support-arrange-oxygen-concentrators-in-delhi",
     "name": "Breath India - Milaap",
-    "image":"./d7.png",
-    "cName":"card-item"
+    "image": "./d7.png",
+    "cName": "card-item"
   }
-  
-
-  
 ]

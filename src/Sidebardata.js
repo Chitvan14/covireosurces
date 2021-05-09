@@ -1,6 +1,7 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
+import * as BsIcons from "react-icons/bs";
 
 export const SidebarData = [
   {
@@ -34,11 +35,18 @@ export const SidebarData = [
     cName: "nav-text",
   },
 
+  {
+    title: "Disclaimer",
+    path: "/disclaimer",
+    icon: <AiIcons.AiFillInfoCircle />,
+    cName: "nav-text",
+  },
+
   
   {
     title: "About",
     path: "/about",
-    icon: <AiIcons.AiFillInfoCircle />,
+    icon: <BsIcons.BsPeopleCircle />,
     cName: "nav-text",
   },
 

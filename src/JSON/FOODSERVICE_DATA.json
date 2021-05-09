@@ -1,0 +1,93 @@
+[
+  {
+    "verified": "Verified on 8 May",
+    "name": "Tiffin Service",
+    "number": 9810358973,
+    "availability": "",
+    "city": "Gurgaon",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 5 May",
+    "name": "Free Lunch Dinner",
+    "number": 8336007374,
+    "availability": "Bhawanipur,Kalighat & other areas",
+    "city": "Kolkata",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Bhartiya bhojan",
+    "number": 9354807919,
+    "availability": "1pm to 12 pm",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Manpreet Sethi",
+    "number": 9810883315,
+    "availability": "",
+    "city": "Patiala",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Health meal service",
+    "number": 9354807919,
+    "availability": "",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Arora Tiffin",
+    "number": 9988755663,
+    "availability": "",
+    "city": "Patiala",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Anshul Laroiya (H)",
+    "number": 7009079329,
+    "availability": "",
+    "city": "Patiala",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Anshul Laroiya (H)",
+    "number": 8847233287,
+    "availability": "",
+    "city": "Patiala",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Abhinav Kumar",
+    "number": 8437067288,
+    "availability": "",
+    "city": "Patiala",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Snigdha",
+    "number": 9971767771,
+    "availability": "",
+    "city": "Gulmohar park- hauzkhas -green park,Delhi",
+    "cName": "card-item"
+  },
+
+  {
+    "verified": "",
+    "name": "In Verification Updating Soon",
+    "number": "",
+    "availability": "Upcoming",
+    "city": "",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  }
+]

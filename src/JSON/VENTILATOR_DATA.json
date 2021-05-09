@@ -1,0 +1,28 @@
+[
+  {
+    "verified": "Verified on 6 May",
+    "name": "Icu beds",
+    "number": "08010081338",
+    "availability": "Also could arrange ventilator",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 6 May",
+    "name": "Delhi Ventilator",
+    "number": "+919810777432",
+    "availability": "available",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "",
+    "name": "In Verification Updating Soon",
+    "number": "",
+    "availability": "Upcoming",
+    "city": "",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  }
+]

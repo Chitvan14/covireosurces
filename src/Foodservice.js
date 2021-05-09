@@ -57,7 +57,7 @@ function FoodService() {
             </li>
           );
         })}
-        <SocialShare/>
+        {/* <SocialShare/> */}
       </div>
     </div>
     </IconContext.Provider>

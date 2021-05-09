@@ -119,11 +119,11 @@ function ChatRoom() {
         <span ref={dummy}></span>
       </main>
       <form className="donate__form" onSubmit={sendMessage}>
-        <input
+        <textarea
           value={formValue}
           onChange={(e) => setFormValue(e.target.value)}
           placeholder="Say Something"
-        />
+        ></textarea>
         <button type="submit" disabled={!formValue}>
           <AiIcons.AiOutlineSend className="send__button" />
         </button>
@@ -141,6 +141,7 @@ function ChatMessage(props) {
     <>
       <div className={`message ${messageClass}`}>
         <img src={photoURL || "/dp.png"} />
+   
     
         <p>{text}</p>
    

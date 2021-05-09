@@ -5,22 +5,19 @@
     "number": "",
     "availability": "",
     "city": "",
-    "website":"https://drive.google.com/file/d/1xuQuwm1P3xRfTJy59nJa8N4T7VtWpSH6/view?usp=sharing",
-    "websiteName":"Click Here To Check",
-    "cName":"card-item"
+    "website": "https://drive.google.com/file/d/1xuQuwm1P3xRfTJy59nJa8N4T7VtWpSH6/view?usp=sharing",
+    "websiteName": "Click Here To Check",
+    "cName": "card-item"
   },
-  
-  
+
   {
     "verified": "",
-    "name": "In Verification Coming Soon",
+    "name": "In Verification Updating Soon",
     "number": "",
     "availability": "Upcoming",
     "city": "",
-    "cName":"card-item",
-    "websiteName":"",
-    "website":""
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
   }
-
-  
 ]

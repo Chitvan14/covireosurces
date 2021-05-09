@@ -1,17 +1,21 @@
 import React, { useState } from "react";
-import JSONDATA from "./JSON/ICUBEDS_DATA.json";
-import './IcuBeds.css';
-import * as FiIcon from "react-icons/fi";
+import JSONDATA from "../JSON/VENTILATOR_DATA.json";
+import './bedscommon.css';
 import {IconContext} from 'react-icons';
-import SocialShare from './SocialShare';
-function IcuBeds() {
+import {
+ 
+    TwitterIcon,
+   
+  } from "react-share";
+
+function VentilatorBeds() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <IconContext.Provider value={{ color: "#1C212E" }}>
     <div className="icubeds">
       <div className="icubeds__top">
       <img className="item__image" src="/9.png" alt="icubeds"/>
-        <h1>ICU BEDS</h1>
+        <h1>VENTILATOR BEDS</h1>
       </div>
       <div className="icubeds__mid">
         <input
@@ -21,6 +25,45 @@ function IcuBeds() {
             setSearchTerm(event.target.value);
           }}
         ></input>
+         {(searchTerm != "") ? (
+            <div  className="twitterButton twitterbuttonShow">
+
+         
+            <a
+                href={`https://twitter.com/search?q=${searchTerm}%20ventilator%20verified%20&src=typed_query&f=live`}
+               
+              > 
+              <TwitterIcon
+              logofillColor="white"
+              round={true}
+              size={35}
+            
+            ></TwitterIcon>
+                Live Ventilator Results For <h4> {searchTerm} 
+                </h4>
+              </a>
+             
+            </div>
+          ) : (
+            <div  className="twitterButton twitterbuttonHide">
+
+         
+          <a
+              href={`https://twitter.com/search?q=${searchTerm}%20ventilator%20verified%20&src=typed_query&f=live`}
+             
+            > 
+            <TwitterIcon
+            logofillColor="white"
+            round={true}
+            size={35}
+          
+          ></TwitterIcon>
+              Live Ventilator Results For <h4> {searchTerm} 
+                </h4>
+            </a>
+           
+          </div>
+          )}
         {JSONDATA.filter((val) => {
           if (searchTerm == "") {
             return val;
@@ -57,11 +100,11 @@ function IcuBeds() {
             </li>
           );
         })}
-        <SocialShare/>
+        {/* <SocialShare/> */}
       </div>
     </div>
     </IconContext.Provider>
   );
 }
 
-export default IcuBeds;
+export default VentilatorBeds;
