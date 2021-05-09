@@ -30,7 +30,7 @@ width: 80%;
 }
 
 
-.twitterButton {
+.twitter__Button {
     width: 80%;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,10 +51,10 @@ width: 80%;
       #5b86e5,
       #36d1dc
     ); 
-  opacity: 92%;
+ 
   }
   
-  .twitterButton:hover {
+  .twitter__Button:hover {
     
     background: #36d1dc; 
     background: -webkit-linear-gradient(
@@ -69,7 +69,7 @@ width: 80%;
     ); 
   }
   
-  .twitterButton > a {
+  .twitter__Button > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ width: 80%;
   
   }
   
-  .twitterButton > a >h4{
+  .twitter__Button > a > h4{
     display: flex;
     justify-content: center;
     text-transform: capitalize;
