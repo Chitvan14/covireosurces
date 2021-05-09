@@ -25,7 +25,7 @@ function AmbulanceBeds() {
             setSearchTerm(event.target.value);
           }}
         ></input>
-         {(searchTerm != "") ? (
+        
             <div  className="twitterButton twitterbuttonShow">
 
          
@@ -44,26 +44,8 @@ function AmbulanceBeds() {
               </a>
              
             </div>
-          ) : (
-            <div  className="twitterButton twitterbuttonHide">
-
          
-          <a
-              href={`https://twitter.com/search?q=${searchTerm}%20ambulance%20verified&src=typed_query&f=live`}
-             
-            > 
-            <TwitterIcon
-            logofillColor="white"
-            round={true}
-            size={35}
           
-          ></TwitterIcon>
-              Live Ambulance Results For <h4> {searchTerm} 
-                </h4>
-            </a>
-           
-          </div>
-          )}
         {JSONDATA.filter((val) => {
           if (searchTerm == "") {
             return val;
