@@ -21,12 +21,10 @@ function AmbulanceBeds() {
               setSearchTerm(event.target.value);
             }}
           ></input>
-<div className="twitter__Button">
-  <h1 style={{color: "red"}}>check</h1>
-            </div>
+
 
           {(searchTerm != "" )? (
-            <div className="twitterButton twitterbuttonShow">
+            <div className="twitter__Button twitterbuttonShow">
               <a
                 href={`https://twitter.com/search?q=${searchTerm}%20ambulance%20verified&src=typed_query&f=live`}
               >
@@ -39,7 +37,7 @@ function AmbulanceBeds() {
               </a>
             </div>
           ) : (
-            <div className="twitterButton twitterbuttonHide">
+            <div className="twitter__Button twitterbuttonHide">
               <a
                 href={`https://twitter.com/search?q=${searchTerm}%20ambulance%20verified&src=typed_query&f=live`}
               >
