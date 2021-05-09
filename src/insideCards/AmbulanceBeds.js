@@ -21,7 +21,7 @@ function AmbulanceBeds() {
               setSearchTerm(event.target.value);
             }}
           ></input>
-<div className="twitterButton">
+<div className="twitter__Button">
   <h1 style={{color: "red"}}>check</h1>
             </div>
 
