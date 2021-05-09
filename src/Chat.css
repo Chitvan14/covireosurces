@@ -70,15 +70,22 @@ main {
   border-radius: 100%;
 }
 
-.donate__form input {
+.donate__form textarea{
+  
   line-height: 1.5;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   background: #f4c430;
   color: black;
+ 
+  /* padding: 10px 10px; */
+margin-top: 4px;
+  height: 8vh;
+
+}
+.donate__form textarea:focus{
   outline: none;
   border: none;
-  padding: 0 10px;
 }
 
 .chat header button {

@@ -1,0 +1,71 @@
+[
+  {
+    "verified": "Verified on 4 May",
+    "name": "DRDO’s SVP COVID19 Hospital",
+    "number": "9818047498",
+    "availability": "available",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+
+  {
+    "verified": "Verified on 4 May",
+    "name": "Beds",
+    "number": "8860001023",
+    "availability": "available",
+    "city": "Gurgaon,Harayana",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Rajindra Hospital",
+    "number": "0175-2212542",
+    "availability": "",
+    "city": "Patiala,Punjab",
+    "cName": "card-item"
+  },
+
+  {
+    "verified": "Verified",
+    "name": "Iskcon Covid Care Center",
+    "number": "",
+    "availability": "Beds available",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Amar Hospital",
+    "number": "0175-2222002",
+    "availability": "",
+    "city": "Patiala,Punjabi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Columbia Asia",
+    "number": "0175-5000222",
+    "availability": "",
+    "city": "Patiala,Punjab",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified",
+    "name": "Vardhman Hospital",
+    "number": "0175-5051234",
+    "availability": "",
+    "city": "Patiala,Punjab",
+    "cName": "card-item"
+  },
+
+  {
+    "verified": "",
+    "name": "In Verification Updating Soon",
+    "number": "",
+    "availability": "Upcoming",
+    "city": "",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  }
+]

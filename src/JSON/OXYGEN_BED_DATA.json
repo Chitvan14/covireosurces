@@ -1,0 +1,28 @@
+[
+  {
+    "verified": "Verified on 8 May",
+    "name": "Lok Nayak Hospital",
+    "number": "08046820570",
+    "availability": "Oxygen Beds",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 8 May",
+    "name": "Lok Nayak Hospital",
+    "number": "01123501036",
+    "availability": "Oxygen Beds",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "",
+    "name": "In Verification Updating Soon",
+    "number": "",
+    "availability": "Upcoming",
+    "city": "",
+    "website": "",
+    "websiteName": "",
+    "cName": "card-item"
+  }
+]

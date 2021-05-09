@@ -63,7 +63,7 @@ function Plasma() {
             </li>
           );
         })}
-        <SocialShare/>
+        {/* <SocialShare/> */}
       </div>
     </div>
     </IconContext.Provider>
