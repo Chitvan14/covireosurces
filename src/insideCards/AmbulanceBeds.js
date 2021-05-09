@@ -26,7 +26,7 @@ function AmbulanceBeds() {
           }}
         ></input>
         
-            <div  className="twitterButton twitterbuttonShow">
+            <div  className="twitterButton">
 
          
             <a
