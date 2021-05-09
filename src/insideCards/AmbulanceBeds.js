@@ -11,7 +11,9 @@ function AmbulanceBeds() {
       <div className="icubeds">
         <div className="icubeds__top">
           <img className="item__image" src="/9.png" alt="icubeds" />
+
           <h1>AMBULANCE</h1>
+
         </div>
         <div className="icubeds__mid">
           <input
@@ -21,6 +23,7 @@ function AmbulanceBeds() {
               setSearchTerm(event.target.value);
             }}
           ></input>
+
           {(searchTerm != "" )? (
             <div className="twitter__Button twitterbuttonShow">
               <a
