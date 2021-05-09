@@ -30,7 +30,7 @@ function AmbulanceBeds() {
 
          
             <a
-                href={`https://twitter.com/search?q=${searchTerm}%20ambulance%20verified&src=typed_query&f=live`}
+                href=""
                
               > 
               <TwitterIcon
