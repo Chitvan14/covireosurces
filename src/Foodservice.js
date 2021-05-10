@@ -4,6 +4,7 @@ import './Foodservice.css';
 import * as FiIcon from "react-icons/fi";
 import {IconContext} from 'react-icons';
 import SocialShare from './SocialShare';
+import { TwitterIcon } from "react-share";
 function FoodService() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
@@ -21,6 +22,45 @@ function FoodService() {
             setSearchTerm(event.target.value);
           }}
         ></input>
+         {(searchTerm != "") ? (
+            <div  className="twitter__Button twitterbuttonShow">
+
+         
+            <a
+                href={`https://twitter.com/search?q=${searchTerm}%20food%20service%20verified&src=typed_query&f=live`}
+               
+              > 
+              <TwitterIcon
+              logofillColor="white"
+              round={true}
+              size={35}
+            
+            ></TwitterIcon>
+                Live Oxygen Concentrator Results For <h4>  {searchTerm}  
+                  </h4>
+              </a>
+             
+            </div>
+          ) : (
+            <div  className="twitter__Button twitterbuttonHide">
+
+         
+          <a
+              href={`https://twitter.com/search?q=${searchTerm}%20food%20service%20verified&src=typed_query&f=live`}
+             
+            > 
+            <TwitterIcon
+            logofillColor="white"
+            round={true}
+            size={35}
+          
+          ></TwitterIcon>
+              Live Oxygen Concentrator Results For <h4> {searchTerm} 
+                </h4>
+            </a>
+           
+          </div>
+          )}
         {JSONDATA.filter((val) => {
           if (searchTerm == "") {
             return val;
@@ -35,6 +75,10 @@ function FoodService() {
             return val;
           } else if (
             val.name=="In Verification Coming Soon"
+          ) {
+            return val;
+          } else if (
+            val.availability.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return val;
           }

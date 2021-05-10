@@ -18,7 +18,7 @@ function OxygenConcentrator() {
       <div className="oxygen">
         <div className="oxygen__top">
           <img className="item__image" src="/1.png" alt="oxygen" />
-          <h1>CONCENTRATOR</h1>
+          <h2>CONCENTRATOR</h2>
         </div>
 
         <div className="oxygen__mid">

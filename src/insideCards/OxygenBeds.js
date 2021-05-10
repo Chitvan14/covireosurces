@@ -15,7 +15,7 @@ function OxygenBeds() {
     <div className="icubeds">
       <div className="icubeds__top">
       <img className="item__image" src="/9.png" alt="icubeds"/>
-        <h1>OXYGEN BEDS</h1>
+        <h2>OXYGEN BEDS</h2>
       </div>
       <div className="icubeds__mid">
         <input
@@ -78,6 +78,10 @@ function OxygenBeds() {
             return val;
           } else if (
             val.name=="In Verification Coming Soon"
+          ) {
+            return val;
+          } else if (
+            val.availability.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return val;
           }

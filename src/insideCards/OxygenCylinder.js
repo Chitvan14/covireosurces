@@ -18,7 +18,7 @@ function OxygenCylinder() {
       <div className="oxygen">
         <div className="oxygen__top">
           <img className="item__image" src="/1.png" alt="oxygen" />
-          <h1>CYLINDER</h1>
+          <h2>CYLINDER</h2>
         </div>
 
         <div className="oxygen__mid">

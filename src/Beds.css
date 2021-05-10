@@ -1,9 +1,9 @@
 .icubeds__mid > .icubed__nav{
-    color: #1c212e;
-    background-color: #f37455;
+  color: #1c212e;
+  background-color: #f37455;
 width:fit-content;
-padding:20px;
-margin:15px;
+padding:10px;
+margin:15px 15px 15px 15px;
 border-radius: 10px;
 }
 .icubeds__mid > .icubed__nav:hover {

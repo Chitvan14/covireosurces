@@ -2,8 +2,8 @@
   color: #1c212e;
   background-color: #f37455;
 width:fit-content;
-padding:20px;
-margin:15px;
+padding:10px;
+margin:15px 15px 15px 15px;
 border-radius: 10px;
 }
 .oxygen__mid > .oxygen__nav:hover {
