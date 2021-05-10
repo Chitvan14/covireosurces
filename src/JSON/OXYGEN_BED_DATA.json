@@ -1,6 +1,14 @@
 [
   {
     "verified": "Verified on 10 May",
+    "name": "Apex Hospital",
+    "number": "",
+    "availability": "E-22, Goswami Girdhari Lal Marg,Block E",
+    "city": "Naraina, New Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 10 May",
     "name": "Ansari Hospital",
     "number": "8373904800",
     "availability": "Sagarpur,RZ-20 F/B,Kailash Puri Road",
