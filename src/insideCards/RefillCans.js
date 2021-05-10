@@ -18,7 +18,7 @@ function RefillCans() {
       <div className="oxygen">
         <div className="oxygen__top">
           <img className="item__image" src="/1.png" alt="oxygen" />
-          <h1>OXYGEN REFILL</h1>
+          <h2>OXYGEN REFILL</h2>
         </div>
 
         <div className="oxygen__mid">

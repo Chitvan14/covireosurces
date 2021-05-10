@@ -5,12 +5,13 @@
     top: 0;
 }
 
-.icubeds__top h1{
-    letter-spacing: 7px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icubeds__top h2{
+  letter-spacing: 7px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
 }
 
 .icubeds__mid{

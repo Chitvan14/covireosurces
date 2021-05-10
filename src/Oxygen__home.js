@@ -9,19 +9,19 @@ function OxygenHome() {
         <div className="oxygen">
         <div className="oxygen__top">
           <img className="item__image" src="/1.png" alt="oxygen" />
-          <h1>OXYGEN</h1>
+          <h2>OXYGEN</h2>
         </div>
 
         <div className="oxygen__mid">
 
       <NavLink to="/concentrator" exact activeClassName="main-nav-active" className="oxygen__nav">
-            <h1>Concentrator</h1>
+            <h3>Concentrator</h3>
            </NavLink>
            <NavLink to="/refill" exact activeClassName="main-nav-active" className="oxygen__nav">
-            <h1>Refill</h1>
+            <h3>Refill</h3>
            </NavLink>
            <NavLink to="/cylinder" exact activeClassName="main-nav-active" className="oxygen__nav">
-            <h1>Cylinder/Can</h1>
+            <h3>Cylinder/Can</h3>
            </NavLink>
           
       </div>

@@ -4,6 +4,7 @@ import "./Remdesivir.css";
 import * as FiIcon from "react-icons/fi";
 import { IconContext } from "react-icons";
 import SocialShare from './SocialShare';
+import { TwitterIcon } from "react-share";
 function Remdesivir() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
@@ -21,6 +22,45 @@ function Remdesivir() {
               setSearchTerm(event.target.value);
             }}
           ></input>
+           {(searchTerm != "") ? (
+            <div  className="twitter__Button twitterbuttonShow">
+
+         
+            <a
+                href={`https://twitter.com/search?q=${searchTerm}%20remdesivir%20injection%20verified&src=typed_query&f=live`}
+               
+              > 
+              <TwitterIcon
+              logofillColor="white"
+              round={true}
+              size={35}
+            
+            ></TwitterIcon>
+                Live Oxygen Concentrator Results For <h4>  {searchTerm}  
+                  </h4>
+              </a>
+             
+            </div>
+          ) : (
+            <div  className="twitter__Button twitterbuttonHide">
+
+         
+          <a
+              href={`https://twitter.com/search?q=${searchTerm}%20remdesivir%20injection%20verified&src=typed_query&f=live`}
+             
+            > 
+            <TwitterIcon
+            logofillColor="white"
+            round={true}
+            size={35}
+          
+          ></TwitterIcon>
+              Live Oxygen Concentrator Results For <h4> {searchTerm} 
+                </h4>
+            </a>
+           
+          </div>
+          )}
           {JSONDATA.filter((val) => {
             if (searchTerm == "") {
               return val;
@@ -33,6 +73,10 @@ function Remdesivir() {
             ) {
               return val;
             } else if (val.name == "In Verification Coming Soon") {
+              return val;
+            } else if (
+              val.availability.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
               return val;
             }
           }).map((item, index) => {

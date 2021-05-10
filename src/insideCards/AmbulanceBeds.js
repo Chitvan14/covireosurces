@@ -11,9 +11,7 @@ function AmbulanceBeds() {
       <div className="icubeds">
         <div className="icubeds__top">
           <img className="item__image" src="/9.png" alt="icubeds" />
-
-          <h1>AMBULANCE</h1>
-
+          <h2>AMBULANCE</h2>
         </div>
         <div className="icubeds__mid">
           <input
@@ -23,7 +21,6 @@ function AmbulanceBeds() {
               setSearchTerm(event.target.value);
             }}
           ></input>
-
           {(searchTerm != "" )? (
             <div className="twitter__Button twitterbuttonShow">
               <a
@@ -63,6 +60,11 @@ function AmbulanceBeds() {
             ) {
               return val;
             } else if (val.name == "In Verification Coming Soon") {
+              return val;
+            }
+            else if (
+              val.availability.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
               return val;
             }
           }).map((item, index) => {

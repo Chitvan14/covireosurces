@@ -15,7 +15,7 @@ function IcuBeds() {
     <div className="icubeds">
       <div className="icubeds__top">
       <img className="item__image" src="/9.png" alt="icubeds"/>
-        <h1>ICU BEDS</h1>
+        <h2>ICU BEDS</h2>
       </div>
       <div className="icubeds__mid">
         <input
@@ -78,6 +78,10 @@ function IcuBeds() {
             return val;
           } else if (
             val.name=="In Verification Coming Soon"
+          ) {
+            return val;
+          } else if (
+            val.availability.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return val;
           }
