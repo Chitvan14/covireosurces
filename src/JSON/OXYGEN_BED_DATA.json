@@ -1,5 +1,117 @@
 [
   {
+    "verified": "Verified on 11 May",
+    "name": "Pushottam Das Savitri Devi Hospital",
+    "number": "8171252537",
+    "availability": "5 Oxygen Beds & 8 Normal Beds",
+    "city": "Agra",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Nayati City",
+    "number": "9958085752",
+    "availability": "15 Oxygen Beds",
+    "city": "Agra",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Apex City",
+    "number": "8826395145",
+    "availability": "Oxygen and Normal Beds",
+    "city": "West Vinod Nagar,Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Sunrise Hospital",
+    "number": "9891014600",
+    "availability": "",
+    "city": "Gurugram",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Gurudwara Shri Rakab Ganj Sahib",
+    "number": "01123712581",
+    "availability": "",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Gurudwara Shri Rakab Ganj Sahib",
+    "number": "01123712581",
+    "availability": "",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Satyawati Raja Harish Chand Hos.",
+    "number": "01127787008",
+    "availability": "",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Pristin Care",
+    "number": "8792739537",
+    "availability": "",
+    "city": "Sec-40, Gurugram",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Deep Chand Bandhu Hospital",
+    "number": "01127305952",
+    "availability": "",
+    "city": "Ashok Vihar Phase 4, Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "SMS Energy Hospital",
+    "number": "9826064425",
+    "availability": "",
+    "city": "Nemavar Road, Indore",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "SK Hospital",
+    "number": "9449979334",
+    "availability": "",
+    "city": "Badaganpati, Indore",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Ambedkar Nagar Hospital",
+    "number": "9310586617",
+    "availability": "",
+    "city": "Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "CMC Hospital",
+    "number": "8847390920",
+    "availability": "50 oxygen beds only",
+    "city": "Ludhiana",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Mount Carmel School Covid Care",
+    "number": "01128052002",
+    "availability": "Sector-22, Dwarka",
+    "city": " New Delhi (Gateno. 1)",
+    "cName": "card-item"
+  },
+  {
     "verified": "Verified on 10 May",
     "name": "Apex Hospital",
     "number": "",

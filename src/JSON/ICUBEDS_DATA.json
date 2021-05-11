@@ -1,5 +1,45 @@
 [
   {
+    "verified": "Verified on 11 May",
+    "name": "Chandra Laxmi Hospital",
+    "number": "9654222917",
+    "availability": "",
+    "city": "Vaishali, Ghaziabad",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Lalita Hospital",
+    "number": "7678669919",
+    "availability": "Normal Beds Only",
+    "city": "Begumpur, Delhi",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Sanjay Jaiswal",
+    "number": "9451424264",
+    "availability": "10pm to 8am",
+    "city": "Kanpur, Uttar pradesh",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Dharmveer",
+    "number": "956202389",
+    "availability": "3am to 10pm",
+    "city": "Kanpur, Uttar pradesh",
+    "cName": "card-item"
+  },
+  {
+    "verified": "Verified on 11 May",
+    "name": "Rajeev Shukla",
+    "number": "9935779900",
+    "availability": "8am to 3pm",
+    "city": "Kanpur, Uttar pradesh",
+    "cName": "card-item"
+  },
+  {
     "verified": "Verified on 10 May",
     "name": "Sushila Hospital",
     "number": "9811494085",
