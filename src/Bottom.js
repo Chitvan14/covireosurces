@@ -39,7 +39,7 @@ function Bottom() {
             <h1>Beds Availability</h1>
           </NavLink>
           <NavLink to="/remdesivir" exact activeClassName="main-nav-active">
-            <h1>Remdesivir Injection</h1>
+            <h1>Vaccine Injection</h1>
           </NavLink>
          
           

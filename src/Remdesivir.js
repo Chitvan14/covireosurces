@@ -12,7 +12,7 @@ function Remdesivir() {
       <div className="remdesivir">
         <div className="remdesivir__top">
           <img className="item__image" src="/8.png" alt="doctor" />
-          <h1>REMDESIVIR</h1>
+          <h1> Vaccine Injection</h1>
         </div>
         <div className="remdesivir__mid">
           <input
